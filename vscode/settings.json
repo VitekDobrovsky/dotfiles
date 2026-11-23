@@ -1,0 +1,108 @@
+{
+  "files.autoSave": "afterDelay",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+  },
+  "git.autofetch": true,
+  "git.enableSmartCommit": true,
+  "explorer.confirmPasteNative": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features",
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.openRepositoryInParentFolders": "never",
+  "vsicons.dontShowNewVersionMessage": true,
+  "editor.foldingHighlight": false,
+  "editor.formatOnSave": true,
+  "editor.renderLineHighlight": "none",
+  "editor.minimap.enabled": false,
+  "chat.editing.alwaysSaveWithGeneratedChanges": true,
+  "vim.normalModeKeyBindings": [],
+  "vim.incsearch": true,
+  "vim.operatorPendingModeKeyBindings": [],
+  "vim.commandLineModeKeyBindings": [],
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"],
+    },
+  ],
+  "fiveServer.host": "127.0.0.1",
+  "fiveServer.injectBody": true,
+  "fiveServer.highlight": true,
+  "vim.statusBarColors.easymotionmode": "",
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
+  "vim.easymotion": true,
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["F"],
+      "commands": ["lineBreakInsert"],
+      "silent": true,
+    },
+    {
+      "before": ["J"],
+      "commands": ["editor.action.moveLinesDownAction"],
+    }, // moveLineDown
+    {
+      "before": ["K"],
+      "commands": ["editor.action.moveLinesUpAction"],
+    }, // moveLineUp{
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.focusNextGroup"],
+    },
+    {
+      "before": ["<leader>", "c"],
+      "commands": ["editor.fold"],
+    },
+    {
+      "before": ["<leader>", "o"],
+      "commands": ["editor.fold"],
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["editor.toggleFold"],
+    },
+  ],
+  "vim.leader": "<space>",
+  "extensions.experimental.affinity": {
+    "vscodevim.vim": 1,
+  },
+  "editor.accessibilitySupport": "off",
+  "accessibility.signals.chatResponseReceived": {
+    "sound": "off",
+  },
+  "accessibility.signals.taskFailed": {
+    "sound": "off",
+    "announcement": "off",
+  },
+  "accessibility.signalOptions.volume": 0,
+  "prettier.printWidth": 200,
+  "vim.vimrc.path": "",
+  "vim.foldfix": true,
+  "python.createEnvironment.trigger": "off",
+  "terminal.integrated.allowedLinkSchemes": ["file", "http", "https", "mailto", "vscode", "vscode-insiders", "docker-desktop"],
+  "workbench.editor.empty.hint": "hidden",
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "find-it-faster.general.useTerminalInEditor": true,
+  "workbench.iconTheme": "vscode-icons",
+  "claudeCode.preferredLocation": "sidebar",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+  },
+  "workbench.colorTheme": "Carbonfox",
+  "github.codespaces.authProvider": "github",
+  "chat.viewSessions.orientation": "stacked",
+}

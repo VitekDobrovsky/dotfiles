@@ -1,0 +1,5 @@
+[user]
+	name = Vít Dobrovský
+	email = dobrovsky.vit@gmail.com
+[init]
+	templateDir = ~/.git_template
